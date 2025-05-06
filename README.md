@@ -29,7 +29,7 @@ Automated Savings: Set rules to move money into savings based on your preference
 
 🚀 Getting Started
 bash# Clone the repository
-git clone https://github.com/yourname/ai-finance-platform.git
+git clone [https://github.com/yourname/ai-finance-platform.git](https://github.com/sahilkapase/Financial_managing_app.git)
 
 # Navigate to the project directory
 cd ai-finance-platform
@@ -42,8 +42,10 @@ cp .env.example .env
 
 # Run the development server
 npm run dev
+
 💻 Tech Stack
 CategoryTechnologiesFrontendNext.js 15, React 19, TailwindCSS, shadcn/uiBackendNode.js, Express.js, TypeScriptDatabasePostgreSQL, Prisma ORMAI/MLGemini API, TensorFlow.jsAuthenticationNextAuth.js, JWTInfrastructureDocker, GitHub ActionsAnalyticsCustom analytics engine, D3.jsSecurityArcjet rate limiting, input validation
+
 🔧 Configuration
 The platform is highly configurable to meet your needs:
 javascript// config/platform.js
@@ -58,13 +60,19 @@ module.exports = {
   supportedCurrencies: ['USD', 'EUR', 'GBP', 'CAD', 'AUD'],
   refreshRate: 15 // minutes
 };
+
 📊 Demo & Screenshots
-Show Image
+![image](https://github.com/user-attachments/assets/a8823e88-51fd-4c6f-b147-9b67ce338d71)
+
 The main dashboard gives you a complete overview of your finances
-Show Image
+![image](https://github.com/user-attachments/assets/ee5b8862-0823-47bc-84ff-6ae252359f57)
+
 Our AI analyzes receipts instantly and categorizes transactions
-Show Image
+![image](https://github.com/user-attachments/assets/6c956a7f-6159-4856-947e-b085d4eca8e9)
+
 Interactive charts help you understand where your money goes
+![image](https://github.com/user-attachments/assets/5e213032-3d08-4f19-8efb-eab1b488979c)
+
 🛠️ API Reference
 Our platform offers a comprehensive API for developers who want to extend functionality:
 javascript// Example API usage
@@ -92,6 +100,9 @@ Access your finances anywhere with our responsive web application or dedicated m
 Progressive Web App support
 Native iOS application
 Native Android application
+
+deployment link:
+https://financial-managing-6hezy069x-sahils-projects-5d712726.vercel.app/
 Real-time synchronization across all devices
 
 
